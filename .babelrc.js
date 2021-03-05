@@ -27,7 +27,7 @@ module.exports = api => {
         {
           dev,
           modules,
-          removePropTypes: !dev,
+          removePropTypes: false,
         },
       ],
       '@babel/preset-typescript',
