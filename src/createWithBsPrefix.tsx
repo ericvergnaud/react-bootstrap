@@ -28,7 +28,7 @@ export default function createWithBsPrefix<
       { className, bsPrefix, as: Tag = Component || 'div', ...props }: any,
       ref,
     ) => {
-      const resolvedPrefix = useBootstrapPrefix(bsPrefix, prefix);
+      const resolvedPrefix = ""; // useBootstrapPrefix(bsPrefix, prefix);
       return (
         <Tag
           ref={ref}
